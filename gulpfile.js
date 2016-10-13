@@ -8,6 +8,6 @@ gulp.task('taskName', function() {
 });
 
 gulp.task('deploy', function() {
-  return gulp.src('../testFloat/**/*')
+  return gulp.src('../ghpages/**/*')
     .pipe(ghPages());
 });
