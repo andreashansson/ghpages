@@ -1,0 +1,24 @@
+{
+  "name": "ghpages",
+  "version": "1.0.0",
+  "description": "just practice css html",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreashansson/ghpages.git"
+  },
+  "author": "Andreas Hansson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreashansson/ghpages/issues"
+  },
+  "homepage": "https://github.com/andreashansson/ghpages#readme"
+}
