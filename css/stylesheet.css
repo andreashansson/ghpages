@@ -1,3 +1,13 @@
-.header div {
-  float left;
+.header {
+  width: 100%;
+}
+
+.header-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container div {
+  float: left;
 }
