@@ -4,8 +4,9 @@ body {
 
 .header {
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background-color: #f9f9f9;
-  min-height: 200px;
   height: auto;
   overflow: hidden;
   border-bottom: 2px solid #993738;
@@ -16,27 +17,34 @@ body {
   width: 30%;
 }
 
-.logo-container img {
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .logo-container img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .menu-container {
   float: left;
   width: 70%;
   height: 100%
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
-.menu-container div {
+.menu {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu div {
   float: right;
-  border: 1px solid black;
-  width: 19%;
+  margin: 5px;
+  border: 2px solid #993738;
+  border-radius: 4px;
+  color: #993738;
+  width: 120px;
+  height: 25px;
   text-align: center;
-  height: 20px;
-  line-height: 20px;
+  line-height: 25px;
   font-family: sans-serif;
 }
