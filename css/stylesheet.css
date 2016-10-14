@@ -4,8 +4,11 @@ body {
 
 .header {
   width: 100%;
+  background-color: #f9f9f9;
+  min-height: 200px;
   height: auto;
   overflow: hidden;
+  border-bottom: 2px solid #993738;
 }
 
 .logo-container {
@@ -23,6 +26,9 @@ body {
 .menu-container {
   float: left;
   width: 70%;
+  height: 100%
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .menu-container div {
