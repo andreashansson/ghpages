@@ -1,16 +1,36 @@
+body {
+  margin: 0px;
+}
+
 .header {
   width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
-.header-container {
+.logo-container {
+  float: left;
+  width: 30%;
+}
+
+.logo-container img {
   width: 70%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.header-container div {
+.menu-container {
   float: left;
-  padding: 10px;
+  width: 70%;
+}
+
+.menu-container div {
+  float: right;
   border: 1px solid black;
+  width: 19%;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  font-family: sans-serif;
 }
