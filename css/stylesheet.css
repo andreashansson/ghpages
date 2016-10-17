@@ -27,13 +27,6 @@ body {
 .menu-container {
   float: left;
   width: 70%;
-  height: 100%
-}
-
-.menu {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .menu div {
@@ -48,3 +41,9 @@ body {
   line-height: 25px;
   font-family: sans-serif;
 }
+
+  .menu div:hover {
+    color: #f9f9f9;
+    background-color: #993738;
+
+  }
