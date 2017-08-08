@@ -1,9 +1,9 @@
 var gulp = require("gulp");
 var ghPages = require('gulp-gh-pages');
 
-gulp.task('taskName', function() {
+gulp.task('test', function() {
 
-  console.log("hej");
+  console.log("dsf");
   // place code for your default task here
 });
 
